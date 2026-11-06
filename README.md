@@ -28,35 +28,34 @@ check out. The cart is saved in the browser (localStorage), so it stays after a 
 - Bootstrap 5 (layout and responsive design)
 - React Context API (shared cart state)
 - Git & GitHub (version control)
+- Vercel (hosting)
 
 ## Setup Instructions
 
 1. Install [Node.js](https://nodejs.org) (version 18 or newer).
 2. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/booknook.git
+```bash
+   git clone https://github.com/92430097-wq/booknook.git
    cd booknook
-   ```
+```
 3. Install packages:
-   ```bash
+```bash
    npm install
-   ```
+```
 4. Run the website:
-   ```bash
+```bash
    npm run dev
-   ```
+```
    Then open the link shown in the terminal (usually http://localhost:5173).
 
-## Deployment (GitHub Pages)
+## Live Demo
 
-```bash
-npm run deploy
-```
+https://booknook-smoky.vercel.app
 
-This builds the project and publishes the `dist` folder to the `gh-pages` branch.
-Then in GitHub go to **Settings → Pages** and select the `gh-pages` branch.
+## Deployment (Vercel)
 
-Live demo: `https://<your-username>.github.io/booknook/`
+The project is hosted on Vercel and connected to this GitHub repository.
+Every push to the `main` branch redeploys the website automatically.
 
 ## Screenshots
 
